@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-used: 'Roboto', sans-serif;
+  --header-footer-bg-color: #1f2937;
+  --header-hero-text-color: #f9faf8;
+  --header-text-size: 36px;
+  --hero-main-text-size: 48px;
+  --hero-secondary-text-size: 18px;
+  --hero-logo-text-size: 18px;
+  --hero-main-text-weight: 900;
+  --header-text-weight: 900;
+  --quote-text-size: 36px;
+  --quote-text-weight: 300;
+  --hero-logo-color: #f9faf8;
+  --button-bg-color: #3b82f6;
+}
