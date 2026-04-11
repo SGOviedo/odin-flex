@@ -1,7 +1,12 @@
 * {
+  width: 100%;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: var(--font-used);
 }
 :root {
   --font-used: 'Roboto', sans-serif;
@@ -17,4 +22,159 @@
   --quote-text-weight: 300;
   --hero-logo-color: #f9faf8;
   --button-bg-color: #3b82f6;
+}
+
+.header {
+  background-color: var(--header-footer-bg-color);
+  color: var(--header-hero-text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  place-items: initial;
+  padding: 20px;
+  gap: 30px;
+}
+.navbar {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.navbar ul {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.navbar ul a {
+  color: var(--header-hero-text-color);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: var(--header-text-weight);
+}
+.navbar a:hover {
+  color: var(--button-bg-color);
+}
+.navbar img {
+  width: 300px;
+  height: 50px;
+}
+
+.hero {
+  background-color: var(--header-footer-bg-color);
+  color: var(--header-hero-text-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  gap: 20px;
+}
+.hero div {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--hero-logo-text-size);
+  font-weight: var(--hero-main-text-weight);
+  gap: 20px;
+}
+.hero figure {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero figure img {
+  width: 400px;
+  height: 300px;
+}
+
+.hero figure figcaption {
+  color: var(--header-hero-text-color);
+  font-size: var(--hero-logo-text-size);
+  font-weight: var(--hero-main-text-weight);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-color: var(--hero-logo-color);
+  padding: 60px;
+  gap: 20px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: #3b82f6 solid 5px;
+}
+.image img {
+  width: 200px;
+  height: 200px;
+}
+.card p {
+  color: var(--header-hero-text-color);
+  font-size: var(--quote-text-size);
+  font-weight: var(--quote-text-weight);
+}
+.motivation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5e7eb;
+  padding: 60px;
+  gap: 20px;
+}
+.foot {
+  background-color: var(--header-footer-bg-color);
+  color: var(--header-hero-text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+.SingUp {
+  display: flex;
+  background-color: var(--button-bg-color);
+  color: var(--header-hero-text-color);
+  border: none;
+  padding: 40px;
+  font-size: 16px;
+  font-weight: var(--header-text-weight);
+  cursor: pointer;
+  margin: 10%;
+  width: 80%;
+}
+.SingUp:hover {
+  background-color: #2563eb;
+}
+.qoute {
+  color: var(--header-hero-text-color);
+  font-size: 16px;
+  font-weight: var(--quote-text-weight);
+  width: 75%;
+}
+.SingUp button {
+  background-color: var(--button-bg-color);
+  color: var(--header-hero-text-color);
+  border: none;
+  width: 20%;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: var(--header-text-weight);
+  cursor: pointer;
 }
